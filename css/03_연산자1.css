@@ -1,0 +1,38 @@
+.calculator {
+  width: 300px;
+  min-height: 150px;
+  
+  border: 3px solid black;
+  margin: auto; /* body ~ calculator 사이 여백을 자동을 조정 -> 가운데 */
+  padding: 25px;
+  border-radius: 10px;
+
+  /* background-color: plum; */
+}
+
+.row {
+  margin: 10px 0;
+}
+
+.btn-row {
+  display: flex;
+}
+
+.btn-row > button {
+  height: 30px;
+  margin: 0 5px;
+  flex-grow: 1;
+  font-size: 20px;
+  font-weight: bold;
+
+  /* background-color: pink; */
+}
+
+#calcResult {
+  color: red;
+}
+
+.btn2 > button {
+  font-size: 10px;
+  letter-spacing: -1px; /* 자간(글자 간격) 설정 */
+}
